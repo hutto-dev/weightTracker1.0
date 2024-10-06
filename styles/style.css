@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: protest strike, tahmoa, san-serif;
+  background-color: aquamarine;
+}
+
+.title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.track-weight {
+  background-color: white;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.track-weight:hover {
+  background-color: rgb(255, 255, 124);
+}
