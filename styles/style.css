@@ -32,3 +32,10 @@
 .track-weight-button:hover {
   background-color: rgb(255, 255, 124);
 }
+
+.fries-gif {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: auto;
+}
