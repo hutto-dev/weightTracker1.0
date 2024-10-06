@@ -11,16 +11,22 @@
   margin-top: 100px;
 }
 
-.track-weight {
+.track-weight,
+.track-weight-button {
   background-color: white;
   text-align: center;
   display: block;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 10px;
   border-radius: 5px;
+  text-decoration: none;
 }
 
-.track-weight:hover {
+.track-weight {
+  background-color: aquamarine;
+}
+
+.track-weight-button:hover {
   background-color: rgb(255, 255, 124);
 }
