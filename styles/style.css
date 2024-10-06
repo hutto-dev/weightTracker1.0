@@ -13,6 +13,7 @@
 
 .track-weight-button {
   background-color: white;
+  color: black;
   text-align: center;
   display: block;
   margin: auto;
@@ -31,6 +32,11 @@
 
 .track-weight-button:hover {
   background-color: rgb(255, 255, 124);
+  color: black;
+}
+
+.track-weight-button:visited {
+  color: black;
 }
 
 .fries-gif {
