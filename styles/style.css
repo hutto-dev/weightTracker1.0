@@ -45,3 +45,37 @@
   width: 100px;
   height: auto;
 }
+
+.container {
+  border-style: none;
+
+  height: auto;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+}
+
+.weight-input,
+.weekly-average {
+  margin: 10px;
+  padding: 12px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: black;
+}
+
+.save {
+  background-color: white;
+  padding: 8px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
