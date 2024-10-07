@@ -17,56 +17,58 @@
     <div class="container">
       <ul class="ordered-list">
         <li>
-          <input class="weight-input" placeholder="Day 1" /><button
+          <input class="weight-input js-day" placeholder="Day 1" /><button
             class="save day1"
           >
             Save
           </button>
         </li>
         <li>
-          <input class="weight-input" placeholder="Day 2" /><button
+          <input class="weight-input js-day2" placeholder="Day 2" /><button
             class="save day2"
           >
             Save
           </button>
         </li>
         <li>
-          <input class="weight-input" placeholder="Day 3" />
+          <input class="weight-input js-day3" placeholder="Day 3" />
           <button class="save day3">Save</button>
         </li>
         <li>
-          <input class="weight-input" placeholder="Day 4" /><button
+          <input class="weight-input js-day4" placeholder="Day 4" /><button
             class="save day4"
           >
             Save
           </button>
         </li>
         <li>
-          <input class="weight-input" placeholder="Day 5" />
+          <input class="weight-input js-day5" placeholder="Day 5" />
           <button class="save day5">Save</button>
         </li>
         <li>
-          <input class="weight-input" placeholder="Day 6" /><button
+          <input class="weight-input js-day6" placeholder="Day 6" /><button
             class="save day6"
           >
             Save
           </button>
         </li>
         <li>
-          <input class="weight-input" placeholder="Day 7" /><button
+          <input class="weight-input js-day7" placeholder="Day 7" /><button
             class="save day7"
           >
             Save
           </button>
         </li>
         <li>
-          <input class="weekly-average" placeholder="Weekly Average" /><button
-            class="save average"
-          >
-            Save
+          <input
+            class="weekly-average js-average"
+            placeholder="Weekly Average"
+          /><button class="save average" onclick="calculateAverage();">
+            Calculate
           </button>
         </li>
       </ul>
     </div>
+    <script src="../js/weight-tracker.js"></script>
   </body>
 </html>
